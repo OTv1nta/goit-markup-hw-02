@@ -1,0 +1,167 @@
+/*цвет основного текста background: #212121;*/
+/*вторичный цвет текста background: #757575;*/
+/*белый #FFFFFF*/
+/*акцент #2196f3*/
+/*вторичный цвет фона #F5F4FA*/
+
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #757575;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+}
+
+body {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
+/*логотип first second third*/
+
+.first-letter {
+  color: var(--accent-color);
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+
+.second-letter {
+  color: var(--primary-text-color);
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.third-letter {
+  color: var(--primary-white-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+
+}
+
+.list {
+  list-style: none;
+}
+
+/*Site nav*/
+.site-nav .link {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+/*телефоны и почты*/
+
+.mail-phone .link {
+  color: var(--title-text-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.mail-phone .link:hover,
+.mail-phone .link:focus {
+  color: var(--accent-color);
+}
+
+.adress{
+  color: var(--primary-white-color);
+  font-style: normal;
+}
+
+
+ .hero-title{
+  color: var(--primary-white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+ }
+
+.section-title {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+.second-section-title{
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+.third-section-title{
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 1.85;
+  line-height: 2;
+}
+
+.green-text
+{
+  color: #757575;
+}
+
+
+/*Works*/
+
+.works{
+  background-color: #2F303A;;
+}
+/*Features*/
+
+.feature-list .title {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+/*Button*/
+.button {
+  color: var(--primary-text-color);
+  background-color: var(--primary-white-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  cursor: pointer;
+}
+
+
+.button.primary {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+
+.button.sprimary.link:hover
+.button.sprimary.link:focus
+{
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
