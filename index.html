@@ -6,62 +6,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
     <link
-        href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/styles.css">
+      href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>
       <nav>
-        <a href="" class="first-letter">Web<span class="second-letter">Studio</span></a>
+        <a href="/" class="first-letter">Web<span class="second-letter">Studio</span></a>
 
         <ul class="site-nav list">
           <li><a href="" class="link current">Студия</a></li>
-          <li><a href="./portfolio.html" class="link">Портфолио</a></li>
-          <li><a href="" class="link">Контакты</a></li>
+          <li><a class="link" href="./portfolio.html">Портфолио</a></li>
+          <li><a class="link" href="">Контакты</a></li>
         </ul>
       </nav>
 
-      <ul class="mail-phone link list">
-        <li><a href="mailto:info@devstudio.com" class="link current">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
+      <ul class="mail-phone-header link list">
+        <li><a class="link current" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
       </ul>
     </header>
 
     <main>
-      <section class="section works">
+      <section class="divide works">
         <h1 class="hero-title">Эффективные решения <br />для вашего бизнеса</h1>
-        <button type="button" class="button primary">Заказать услугу</button>
+        <button class="button" type="button">Заказать услугу</button>
       </section>
 
       <section>
         <ul class="feature-list list">
           <li>
             <h3 class="title">Внимание к деталям</h3>
-            <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+            <p class="grey-text">
+              Идейные соображения, а также начало повседневной работы по формированию позиции.
+            </p>
           </li>
         </ul>
         <ul class="feature-list list">
           <li>
             <h3 class="title">Пунктуальность</h3>
-            <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+            <p class="grey-text">
+              Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
+            </p>
           </li>
         </ul>
         <ul class="feature-list list">
           <li>
             <h3 class="title">Планирование</h3>
-            <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+            <p class="grey-text">
+              Равным образом консультация с широким активом в значительной степени обуславливает.
+            </p>
           </li>
         </ul>
         <ul class="feature-list list">
           <li>
             <h3 class="title">Современные технологии</h3>
-            <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+            <p class="grey-text">
+              Значимость этих проблем настолько очевидна, что реализация плановых заданий.
+            </p>
           </li>
         </ul>
       </section>
 
-      <section class="section">
-        <h2 class="section-title">Чем мы занимаемся</h2>
+      <section class="divide">
+        <h2 class="divide-title">Чем мы занимаемся</h2>
         <ul class="list">
           <li>
             <img
@@ -91,9 +101,9 @@
         </ul>
       </section>
 
-      <section class="section">
-        <h2 class="section-title">Наша команда</h2>
-        <ul class="second-section-title list">
+      <section class="divide">
+        <h2 class="divide-title">Наша команда</h2>
+        <ul class="second-divide-title list">
           <li>
             <figure>
               <img
@@ -103,7 +113,7 @@
               />
               <figcaption>
                 <h4>Игорь Демьяненко</h4>
-                <p class="green-text">Product Designer</p>
+                <p class="third-divide-title grey-text">Product Designer</p>
               </figcaption>
             </figure>
           </li>
@@ -118,7 +128,7 @@
 
               <figcaption>
                 <h4>Ольга Репина</h4>
-                <p class="green-text">Frontend Developer</p>
+                <p class="third-divide-title grey-text">Frontend Developer</p>
               </figcaption>
             </figure>
           </li>
@@ -128,7 +138,7 @@
               <img src="./images/Nikolai_Tarasov.jpg" alt="Николай Тарасов-маркетинг" width="270" />
               <figcaption>
                 <h4>Николай Тарасов</h4>
-                <p class="green-text">Marketing</p>
+                <p class="third-divide-title grey-text">Marketing</p>
               </figcaption>
             </figure>
           </li>
@@ -142,7 +152,7 @@
               />
               <figcaption>
                 <h4>Михаил Ермаков</h4>
-                <p class="green-text">UI Designer</p>
+                <p class="third-divide-title grey-text">UI Designer</p>
               </figcaption>
             </figure>
           </li>
@@ -151,18 +161,15 @@
     </main>
 
     <footer class="works">
-      <a href="" class="first-letter">Web<span class="third-letter">Studio</span></a>
+      <a class="first-letter" href="">Web<span class="third-letter">Studio</span></a>
 
       <address>
-        <ul class="mail-phone link list"> 
+        <ul class="mail-phone-footer link list">
           <li class="adress">г. Киев, пр-т Леси Украинки, 26</li>
-          <li><a href="mailto:info@example.com" class="link">info@example.com</a></li>
-          <li><a href="tel:+380991111111" class="link">+38 099 111 11 11</a></li>
+          <li><a class="link" href="mailto:info@example.com">info@example.com</a></li>
+          <li><a class="link" href="tel:+380991111111">+38 099 111 11 11</a></li>
         </ul>
       </address>
     </footer>
   </body>
 </html>
-
-
-
