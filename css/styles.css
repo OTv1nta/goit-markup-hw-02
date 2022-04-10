@@ -141,7 +141,7 @@ body {
 }
 
 .grey-text {
-  color: #757575;
+  color: var(--title-text-color)
 }
 
 
@@ -162,16 +162,17 @@ body {
 
 
 /*For portfolio*/
-.feature-list-portfolio .title {
+.feature-list-portfolio .title, h2 {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 
-.feature-list-portfolio-lower-text .title {
- font-size: 16px;
- line-height: 1.87;
+
+.feature-list-portfolio-lower-text .title ,p {
+  font-size: 16px;
+  line-height: 1.87;
 }
 
 /*Button*/
